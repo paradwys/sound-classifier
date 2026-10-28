@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and audio: never commit large or raw files (see CLAUDE.md)
+data/raw/
+*.wav
+*.flac
+*.mp3
+*.ogg
+
+# Secrets
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
